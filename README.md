@@ -44,3 +44,12 @@ In the terminal, run
 To run the app, in the terminal 
 
     npm run dev
+    
+## Deploy app
+To deploy the app, in the terminal run
+    `npm install gh-pages --save-dev`
+
+And add 
+ `"predeploy": "npm run build",
+"deploy": "gh-pages -d dist"`
+to the scripts in package.json
