@@ -1,6 +1,7 @@
 # Example App
 
 The following steps were used to set up this example app
+https://jerrayl.github.io/example-app/
 
 ## Create Vite React app with ts
 
@@ -50,6 +51,8 @@ To deploy the app, in the terminal run
     `npm install gh-pages --save-dev`
 
 And add 
+`"homepage": "https://[git name].github.io/[app name]"`
+and
  `"predeploy": "npm run build",
 "deploy": "gh-pages -d dist"`
 to the scripts in package.json
