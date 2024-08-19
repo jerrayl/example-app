@@ -56,3 +56,7 @@ and
  `"predeploy": "npm run build",
 "deploy": "gh-pages -d dist"`
 to the scripts in package.json
+
+then add 
+`base: "/[app name]/"`
+to vite.config.ts
